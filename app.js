@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
-var port = process.env.PORT;
+var port = 3000;
 const uuidv4 = require('uuid/v4');
 var game_server = require('./game.server.js');
 
@@ -47,6 +47,6 @@ io.on('connection', function(socket){
   });
 });
 
-http.listen(port, function(){
+http.listen(process.env.PORT || port, function(){
 	console.log("Listening on port: " +port)
 });
