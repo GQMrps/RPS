@@ -8,9 +8,11 @@ var game_server = require('./game.server.js');
 
 app.use(express.static(__dirname + '/public'));
 
+
+/*
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
-});
+});*/
 
 app.get('/mainpage',function(req,res){
   res.sendFile('/mainPage.html');
