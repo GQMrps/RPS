@@ -1,0 +1,195 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background: url(sprites/bg.png);  }
+      #messages { list-style-type: none; margin: 0; padding: 0; overflow: hidden }
+      #messages li { padding: 5px 10px;  max-width:500px;
+    word-wrap:break-word; }
+      #messages li:nth-child(odd) { background: #eee;}
+
+#container {
+	position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: auto; /* add this to contain floated children */
+}
+#container2 {
+	position: relative;
+    width: 200px;
+    height: 120px;
+    overflow: auto; /* add this to contain floated children */
+}
+
+#canvasContainer {
+	float:left;
+	overflow: hidden;
+	width:700px; height:500px; position:relative; top:0;
+    bottom: 0;
+    left: 0;
+    right: 0; margin:auto;
+
+}
+
+#input {
+    font: 20px sans-serif;
+    position: absolute;
+    left: 225px;
+    right: 0px;
+    top: 200px;
+    bottom: 250px;
+    margin: auto;
+    
+}
+
+
+
+#info {
+	position: absolute;
+    background-color: grey;
+    border: solid black 5px;
+    border-radius: 15px;
+    height: 100%;
+    width: 150px;
+    top: 0px;
+}
+
+
+
+#info p {
+	color: black;
+	padding-left: 10px;
+
+}
+
+
+
+#reportbug {
+    position: absolute;	
+ 	right: 0;
+    bottom: 0;
+   
+ 	
+
+    
+}
+
+.lala {
+	background-color: #4CAF50;
+	color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.lala:hover {
+	opacity: 0.5;
+}
+
+
+
+#lastBottom {
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+
+}
+#nextToLast {
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	top: 0;
+	right: 0;
+
+}
+
+#leftSideBar {
+	position: relative;
+	width: 11%;
+	height: 500px;
+	float: left;
+}
+
+
+
+#version {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+	
+
+#canvas{
+	width:100%;
+    height:100%;
+}
+
+ul#messages {
+	float: left; 
+	overflow: scroll;
+    overflow-x: hidden;
+    height: 500px;
+    width: 500px;
+    line-height: 2em;
+    border: 1px solid #ccc;
+    margin: 0;
+    background: white;
+
+
+}
+
+
+#inputNickname {
+	font: 20px sans-serif;
+    position: absolute;
+    left: 225px;
+    right: 0px;
+    top: 200px;
+    bottom: 250px;
+    margin: auto;
+}
+
+
+
+#button2 {
+	
+	background-color: #4CAF50;
+	color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+ 	display: none;
+
+}
+
+#button2:hover {
+	background-color: white; /* Green */ 
+	color: black;
+    
+
+}
+
+#form2 {
+	margin: 0; padding: 0; box-sizing: border-box;
+	 background: lightblue; padding: 3px; position: fixed; bottom: 0; width: 100%; 
+}
+
+#inputMessages {
+	border: 0; 
+	padding: 10px; 
+	width: 90%; 
+	margin-right: .5%; 
+	color: black;
+
+}

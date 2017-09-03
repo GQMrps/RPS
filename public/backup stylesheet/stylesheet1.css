@@ -1,0 +1,153 @@
+*                               { margin: 0; padding: 0; }
+body                            { font: 12px "Lucida Grande", Sans-Serif; background: url(sprites/bg.png); }
+
+/*input {   
+    font: 14px sans-serif;
+    margin: auto;
+    
+    
+}*/
+
+#input {
+    font: 20px sans-serif;
+    position: absolute;
+    left: 225px;
+    right: 0px;
+    top: 200px;
+    bottom: 250px;
+    margin: auto;
+    
+}
+
+#container {
+    width:700px; height:500px; position:relative; top:0;
+    bottom: 0;
+    left: 0;
+    right: 0; margin:auto; 
+    border: solid red;
+}
+
+#canvas {
+
+    
+    
+}
+
+#version {
+  position: absolute;
+  height: px;
+  width: px;
+  top: 519px;
+}
+
+#info {
+    background-color: antiquewhite;
+    border: solid 5px;
+    border-color: grey;
+    position: relative;
+    height: 60px;
+    width: 150px;
+    top: 17px;
+}
+
+#1 {
+    background-color: antiquewhite;
+    border: solid 5px;
+    border-color: grey;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 520px;
+    
+}
+#2 {
+    background-color: antiquewhite;
+    border: solid 5px;
+    border-color: grey;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 525px;
+    
+}
+#3 {
+    background-color: antiquewhite;
+    border: solid 5px;
+    border-color: grey;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 530px;
+    
+}
+#4 {
+    background-color: antiquewhite;
+    border: solid 5px;
+    border-color: grey;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 535px;
+    
+}
+
+
+
+
+
+#reportbug {
+    position: absolute;
+ 
+    top: 519px;
+    left: 621px;
+    
+    
+}
+
+#halv {
+    
+    top: 519px;
+    left: 621px;
+    
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+    font-size: 200px;
+}
+
+#textReport{
+    text-align: center;
+    
+    
+}
+#form2 {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 3em;
+    background-color: white;
+    font: verdana;
+}
+
+#formNew {
+    display: inline;
+};
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+    
+    width: 20em;
+    /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+    resize: vertical;
+}

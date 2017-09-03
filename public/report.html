@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html manifest="example.appache">
+    <head>
+        <title>Report bug</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <form id ="formNew" action="../index.html">
+        <input type="submit" value = "Main page" />
+        </form>
+        <form id ="form2"method="POST" action="http://www.domeneshop.no/cgi-bin/mailto.cgi" accept-charset="ISO-8859-1"><h1 id ="textReport">Report bug</h1>
+            <input type="hidden" name="_to" value="svein.tvedt@gamesquestionmark.com">
+            <input type="hidden" name="_from" value="feedback@gamesquestionmark.com">
+            <input type="hidden" name="_subject" value="Tilbakemelding">
+            <input type="hidden" name="_resulturl" value="http://www.gamesquestionmark.com/ProjectI/tbm/tbm.html">
+            <br>
+                <div>
+                    <label for="name">What's your name?:</label>
+                    <br>
+                    <input type ="text" id="name" name="Name">
+                </div>
+            <br>
+                <div>
+                    <label for="message">Describe bug/glitch:</label>
+                    <br>
+                    <textarea id="message" name="Message"></textarea>
+                </div>
+            <br>
+                <div>
+                    <label for="mail">Your email address?</label>
+                    <br>
+                    <input type="email" id ="email" name="Email" value="">
+                </div>
+            <br>
+                <div>
+                    <label for="once">Did the bug/glitch happen more than once?:</label><br>
+                    <input type="radio" id="once" name="More than once?" value="Yes"> Yes <br>
+                    <input type="radio" id="once" name="More than once?" value="No"> No <br>
+                </div>
+            <br>
+                <div>
+                    <label for="browser">Which internet browser did you play on?: </label><br>
+                    <input type="radio" id="browser" name="Browser" value="Google Chrome"> Google Chrome <br>
+                    <input type="radio" id="browser" name="Browser" value="Internet Explorer"> Internet Explorer <br>
+                    <input type="radio" id="browser" name="Browser" value="Firefox"> Firefox <br>
+                    <input type="radio" id="browser" name="Browser" value="Opera"> Opera <br><br>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+        </form>
+    </body>
+
+</html>

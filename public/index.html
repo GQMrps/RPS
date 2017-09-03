@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="/style.css">
+    <title>ProjectI</title>
+
+  </head>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="main.js">
+  
+</script>
+  <body >
+    <div id = "container">
+      <div id ="leftSideBar">
+        <div id ="lastBottom">
+        <button id ="version" class ="lala">version 0.0.13</button>
+          
+          
+        </div>
+        <div id ="nextToLast">
+        <form id ="formNew" action="mainPage.html">
+          <button id = "waat" type="submit" class = "lala"> Main Page </button>
+      </form> 
+
+          <form id ="reportbug" action="report.html" >
+            <button id ="waaat" type="submit" class ="lala">Report a bug</button>
+          </form>
+             
+        </div>
+      </div>
+      <div id = "canvasContainer">
+        <canvas id ="canvas" width="700" height="500"></canvas>
+        <form action="" id = "form1">
+          <input hidden id= "inputNickname" autocomplete="off" placeholder= "Enter nickname here..."/>
+        </form>
+
+      </div>
+      <ul  id="messages" hidden overflow: hidden; ></ul>
+      <p id ="newMessages" hidden> New messages! </p>
+      <div id="chatend"></div>        
+      </div>
+    
+    <form action="" id = "form2">
+      <input id="inputMessages" autocomplete="off" hidden value = ""/><button id ="button2" class = "button2">Send</button>
+    </form>
+
+    <div id ="container2">
+
+      <div id = "info" hidden>
+              <p>Created: 06.05.2017 20:21</p>
+              <p>Finished: N/A</p>
+              <p>Live: N/A</p>
+              <p>Size: 4.20 MB</p>
+            </div>
+    </div>
+    
+    <script type="text/javascript" src = "script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+#half {
+    font-size: 100px;
+    width: 100%; 
+    height: 47vw;
+    display:inline-block;
+}
+
+
+
+
+#otherHalf {
+    
+    font-size: 100px;
+    width: 100%;
+    height: 47vw;
+    display:inline-block;
+}
+
+
+#formProjectI {
+    display:inline-block;
+    width: 49%;
+    height: 47vw;
+}
+
+#formProjectII {
+    display:inline-block;
+    width: 49%;
+    height: 47vw;
+}
